@@ -1,0 +1,32 @@
+x y t x' y' t'
+
+if ind == 4:
+	for every row:
+		x' = x
+		y' = y
+		t' = t
+else:
+	if +-y direction:
+		x'[:] = avg(x[:])
+		y = linest function and check the last few cells
+		t = avg(t[:])		
+	else if +-x direction:
+		y'[:] = avg(y[:])
+		x = linest function and check the last few cells
+		t = avg(t[:])
+
+LINEST(Y_range, X_range, TRUE)
+
+=LINEST(,,TRUE)
+
+=IF(=4,,"")
+
+for corners:
+	No operation
+
+for overlapped routes:
+	No operation
+
+for the beginning and the end:
+	Eliminate the bad ones
+
